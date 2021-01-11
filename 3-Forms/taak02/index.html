@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="formulier" action="mijngegevens.php" method="POST">
+        <h1>Vul je persoonlijke gegevens in</h1>
+        <input type="text" name="Voornaam" placeholder="Vul hier je voornaam in..."><br>
+        <input type="text" name="Achternaam" placeholder="Vul hier je achternaam in..."><br>
+        <input type="text" name="Leeftijd" placeholder="Vul hier je leeftijd in..."><br>
+        <input type="text" name="Klas" placeholder="Vul hier je klas in..."><br>
+        <input type="text" name="Adres" placeholder="Vul hier je adres in..."><br>
+        <input type="text" name="Plaatsnaam" placeholder="Vul hier je plaatsnaam in..."><br>
+        <input type="text" name="Favmusic" placeholder="Vul hier je favoriete muziekband in..."><br>
+        <h1>Kies je geslacht</h1>
+        <input type="radio" name="radio" placeholder="Man"><p>Ik ben een man</p><br>
+        <input type="radio" name="radio" placeholder="Vrouw"><p>Ik ben een vrouw</p><br>
+        <h1>Kies een kleur</h1>
+        <select name="kleuren" id="kleuren">
+            <option style="background-color: red" value="red">Rood</option>
+            <option style="background-color: blue"value="blue">Blauw</option>
+            <option style="background-color: yellow"value="yellow">Geel</option>
+            <option style="background-color: green"value="green">Groen</option>
+            <option style="background-color: purple"value="purple">Paars</option>
+        </select>
+        <input type="submit" name="submit" value="verstuur">
+
+    </form>
+</body>
+</html>
