@@ -3,6 +3,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            background-color: <?php echo $_POST["kleuren"]; ?>
+        }
+    </style>
 </head>
 <body>
     <?php
@@ -34,9 +39,12 @@
     ?>
     <br>
     <?php
-        echo "Gekozen geslacht: " . $_POST["radio"];
+        echo "Geslacht: " . $_POST["geslacht"];
     ?>
     <br>
+    <?php
+        echo "Gekozen kleur: " . $_POST["kleuren"];
+    ?>
 
 
     

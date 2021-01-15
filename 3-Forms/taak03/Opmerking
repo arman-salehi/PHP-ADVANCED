@@ -1,1 +1,5 @@
 Kun je nog iets zeg waarom er twee manieren zijn: Get en Post? Wat is het voordeel van Get en wat van Post? In welke situaties gebruik je Get en wanneer Post?
+
+Bij Get verstuurt je de variable via de URL, met POST gebeurd dit 'achter de schermen' zodat niemand het ziet.
+
+http://localhost/school/php-advanced/3-Forms/taak03/index.php?artiest=Eminem&titel=we+made+you&jvu=2009&muzieksoort=rap&submit=verstuur
